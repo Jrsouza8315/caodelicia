@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Ocean';
+    src: url('font/Oceanshore\ W00\ Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+
+:root{
+    --cor0: #170a3b;
+    --cor1: #360f8f;
+    --cor2: #e0610c;
+    --cor3: #e6a212;
+    --cor4: #000;
+    --cor5: #fff;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-ocean: 'Ocean', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--fonte-ocean);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #e6a212 0%, #fff 40%);
+    padding: 0 1rem;
+}
+
+
